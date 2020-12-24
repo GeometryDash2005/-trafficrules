@@ -1,0 +1,13 @@
+.result {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.result.-hidden {
+	display: none;
+}
+
+.result__image {
+	max-width: 120px;
+}

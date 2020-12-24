@@ -1,0 +1,54 @@
+.title {
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Open Sans', cursive;
+}
+
+.subtitle {
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+	font-family: 'Open Sans', cursive;
+}
+
+.title + .subtitle {
+	margin-bottom: 30px;
+}
+
+.text {
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 22px;
+}
+
+.text + .text {
+	margin-top: 10px;
+}
+
+@media screen and (max-width:1120px) {
+	.text{
+	font-size: 14px;
+}
+
+	.title{
+		font-size: 60px;
+}
+
+	.subtitle{
+		font-size: 20px;
+}
+}
+
+@media screen and (max-width:767px) {
+	.title {
+	font-size: 33px;
+	line-height: 33px;
+	}
+
+	.subtitle {
+	font-size: 18px;
+	line-height: 18px;
+	}
+}

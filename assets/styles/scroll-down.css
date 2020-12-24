@@ -1,0 +1,15 @@
+.scroll-down {
+	font-size: 12px;
+	font-weight: normal;
+	padding: 20px;
+	text-align: center;
+	text-transform: none;
+	text-transform: uppercase;
+	line-height: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.line {
+	line-height: 10px;
+}

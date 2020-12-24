@@ -1,0 +1,45 @@
+section {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: var(--color-black);
+	background-color: #ffffff;
+}
+
+section.hero {
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+section.rules {
+	margin-top: 50px;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+}
+
+section.posters {
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: #E5E5E5;
+}
+
+
+
+@media screen and (max-width:767px) {
+section {
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+section.-hero {
+	flex-direction: column;
+	justify-content: space-between;
+}
+}

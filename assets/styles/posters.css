@@ -1,0 +1,32 @@
+.posters .title {
+	text-transform: uppercase;
+	font-size: 30px;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.poster__body {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.poster__image {
+	width: 20%;
+	margin-right: 30px;
+}
+
+@media screen and (max-width:767px) {
+	.poster__body {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.poster__image {
+		width: 45%;
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+}
