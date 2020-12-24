@@ -1,1 +1,1 @@
-#[проект для школы](https://geometrydash2005.github.io/sos/)
+# [Проект Для Школы](https://geometrydash2005.github.io/trafficrules/)
